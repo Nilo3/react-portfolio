@@ -11,7 +11,7 @@ import mongoDb from "../assets/mongoDb.png"
 import boostrap from "../assets/boostrap.png"
 
 
-const Experience = () => {
+const Skills = () => {
 
   const techs = [
     {
@@ -83,9 +83,10 @@ const Experience = () => {
   ]
 
   return (
-    <div name="experience" className="bg-gradient-to-b from bg-gray-800  to-black w-full min-h-screen">
-      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center text-white'>
-        <div>
+    <div name="skills" className="bg-gradient-to-b from bg-gray-800  to-black w-full h-screen overflow-auto p-4 mx-auto">
+    
+      <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full text-white'>
+        <div className="">
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">Skills</p>
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
@@ -103,4 +104,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Skills;
