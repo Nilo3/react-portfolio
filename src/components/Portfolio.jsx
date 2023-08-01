@@ -13,22 +13,22 @@ const Portfolio = () => {
         {
             id:1,
             src: todo,
-            link: "https://github.com/Nilo3/toDo_App"
+            link: "https://github.com/Nilo3/EcommerceStore"
         },
         {
             id:2,
             src: weather,
-            link: "https://github.com/Nilo3/Weather_App"
+            link: "https://github.com/Nilo3/Airbnb-Clone"
         },
         {
             id:3,
             src: movies,
-            link: "https://github.com/Nilo3/movies"
+            link: "https://github.com/Nilo3/Sweet-Home"
         },
         {
             id:4,
             src: rick,
-            link: "https://github.com/Nilo3/Rick_And_Morty"
+            link: "https://github.com/Nilo3/EcommerceAdmin"
         },
         {
             id:5,
@@ -38,7 +38,7 @@ const Portfolio = () => {
         {
             id:6,
             src: cv,
-            link: "https://github.com/Nilo3/curriculum"
+            link: "https://github.com/Nilo3/movies"
         }
 
     ]
