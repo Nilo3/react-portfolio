@@ -9,6 +9,11 @@ import postgresql from "../assets/postgresql.png";
 import node from "../assets/node.png";
 import mongoDb from "../assets/mongoDb.png";
 import boostrap from "../assets/boostrap.png";
+import cloudinary from "../assets/cloudinary.png"
+import redux from "../assets/redux.png"
+import mysql from "../assets/mysql.png"
+import nextjs from "../assets/next.png"
+import firebase from "../assets/firebase.png"
 
 const Skills = () => {
   const techs = [
@@ -78,6 +83,36 @@ const Skills = () => {
       title: "BOOSTRAP",
       style: "shadow-violet-500",
     },
+    {
+      id: 12,
+      src: cloudinary,
+      title: "CLOUDINARY",
+      style: "shadow-orange-400",
+    },
+    {
+      id: 13,
+      src: redux,
+      title: "REDUX",
+      style: "shadow-violet-500",
+    },
+    {
+      id: 14,
+      src: firebase,
+      title: "FIREBASE",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 15,
+      src: mysql,
+      title: "MYSQL",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 16,
+      src: nextjs,
+      title: "NEXTJS",
+      style: "shadow-blue-900",
+    },
   ];
 
   return (
@@ -93,7 +128,7 @@ const Skills = () => {
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}

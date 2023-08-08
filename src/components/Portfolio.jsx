@@ -13,7 +13,7 @@ const Portfolio = () => {
         {
             id:1,
             src: todo,
-            link: "https://github.com/Nilo3/EcommerceStore"
+            link: "https://ecommerce-store-vert.vercel.app/"
         },
         {
             id:2,
@@ -23,12 +23,12 @@ const Portfolio = () => {
         {
             id:3,
             src: movies,
-            link: "https://github.com/Nilo3/Sweet-Home"
+            link: "https://sweet-home-w1rt.onrender.com/"
         },
         {
             id:4,
             src: rick,
-            link: "https://github.com/Nilo3/EcommerceAdmin"
+            link: "https://ecommerce-admin-rncl9ei3d-nilo3.vercel.app/"
         },
         {
             id:5,
@@ -63,7 +63,7 @@ const Portfolio = () => {
                     <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
                     <div className='flex items-center justify-center'>
                         
-                        <Link to={link} className='px-6 py-3 m-4 duration-200 hover:scale-105'>Code</Link>
+                        <Link to={link} className='px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</Link>
                     </div>
                 </div>
                 ))
