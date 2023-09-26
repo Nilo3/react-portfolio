@@ -14,14 +14,17 @@ import redux from "../assets/redux.png"
 import mysql from "../assets/mysql.png"
 import nextjs from "../assets/next.png"
 import firebase from "../assets/firebase.png"
+import aws from "../assets/aws.png"
+import sass from "../assets/sass.png"
+import ts from "../assets/ts.png"
 
 const Skills = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      src: aws,
+      title: "AWS",
+      style: "shadow-yellow-600",
     },
     {
       id: 2,
@@ -113,6 +116,25 @@ const Skills = () => {
       title: "NEXTJS",
       style: "shadow-blue-900",
     },
+    {
+      id: 17,
+      src: html,
+      title: "HTML",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 18,
+      src: sass,
+      title: "SASS",
+      style: "shadow-pink-600"
+    },
+    {
+      id: 19,
+      src: ts,
+      title: "TYPESCRIPT",
+      style: "shadow-blue-500"
+
+    }
   ];
 
   return (
@@ -134,7 +156,7 @@ const Skills = () => {
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
+              <img src={src} alt="" className="w-20 mx-auto mt-2" />
               <p className="mt-4">{title}</p>
             </div>
           ))}
