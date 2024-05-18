@@ -1,36 +1,44 @@
 import React from 'react';
-import movies from '../assets/portfolio/movies.jpg';
-import rick from '../assets/portfolio/RickAndMorty.jpg';
-import weather from '../assets/portfolio/reactWeather.jpg';
-import todo from '../assets/portfolio/Todo.jpg';
+import MovieBox from '../assets/portfolio/MovieBox.jpg'
+import ecopetrol from '../assets/portfolio/Ecopetrol.jpg';
+import Nike from '../assets/portfolio/Nike.jpg';
+import Saia from '../assets/portfolio/Saia.jpg';
+import Nefro from '../assets/portfolio/Nefro.jpg';
 import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
 	const portfolios = [
 		{
 			id: 1,
-			src: todo,
-			link: 'https://ecommerce-store-git-main-nilo3.vercel.app/',
-			technologies: "Next, Clerk, Shadcn, MongoDb, Cloudinary",
-			code: "https://github.com/Nilo3/EcommerceStore"
+			src: ecopetrol,
+			link: 'https://www.eiacampoguamal.com/',
+			technologies: "Next, Aws, Tailwind, Typescript",
+			code: "https://github.com/Brace-Developers/estudio-guamal-web"
 		},
 		{
 			id: 2,
-			src: weather,
+			src: Saia,
+			link: 'https://saia.ar/',
+			technologies: "React, Tailwind, Javascript",
+			code: "https://github.com/Brace-Developers/estudio-guamal-web"
+		},
+		{
+			id: 3,
+			src: Nefro,
+			link: 'https://develop.premiumhct.com/',
+			technologies: "Next, Nest, Tailwind, Typescript, Aws",
+			code: "https://github.com/Brace-Developers/nefroproteccion"
+		},
+		{
+			id: 4,
+			src: MovieBox,
 			link: 'https://pruebas-psi-lilac.vercel.app/',
 			technologies: "React, Sass, Css, Bootstrap",
 			code: "https://github.com/Nilo3/pruebas"
 		},
 		{
-			id: 3,
-			src: movies,
-			link: 'https://sweet-home-w1rt.onrender.com/',
-			technologies: "Vite, React, MongoDb, Tailwind, Css, Firebase, Cloudinary",
-			code: "https://github.com/Nilo3/Sweet-Home"
-		},
-		{
-			id: 4,
-			src: rick,
+			id: 5,
+			src: Nike,
 			name: "Nike Clone Only Front",
 			technologies: "React, Tailwind",
 			link: 'https://nikepagenilo.netlify.app/',

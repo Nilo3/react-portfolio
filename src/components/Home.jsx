@@ -12,7 +12,7 @@ const Home = () => {
             <br />
             <h4 className='text-1xl sm:text-4xl font-bold text-white'>Full Stack Developer</h4>
             <p className='text-gray-500 py-4 max-w-screen-md'>
-              Experienced software developer with a year of expertise in web application development using React, Tailwind, and Node.js. Passionate about creating intuitive and responsive user interfaces.
+              Software developer with over two years of experience in developing websites and applications. Specialized in AWS and dedicated to creating intuitive and responsive user interfaces.            
             </p>
   
             <div>
@@ -25,7 +25,7 @@ const Home = () => {
             </div>
           </div>
           <div className='flex justify-center mt-8 md:mt-0'>
-            <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto w-2/3 md:w-full' />
+            <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto w-2/3 md:w-3/4' />
           </div>
         </div>
       </div>
